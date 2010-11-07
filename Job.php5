@@ -3,7 +3,7 @@ class Job
 {
     public $id;
     public $name;
-    public $features_messag;
+    public $features_message;
 }
 
 class JobFactory
@@ -47,7 +47,7 @@ class JobFactory
         $job = new Job();
         $job->id = $job_config["id"];
         $job->name = $job_config["name"];
-        $job->features_messag = $job_config["features_messag"];
+        $job->features_message = $job_config["features_message"];
 
         $this->loaded[$id] = $job;
         return $job;
