@@ -2,7 +2,7 @@
 require "Job.php5";
 require "Profile.php5";
 
-class Rpg
+class Rpg2
 {
     const users_config_file = "users.ini";
 
@@ -45,5 +45,5 @@ EOF;
     }
 }
 
-$runner = new Rpg();
+$runner = new Rpg2();
 $runner->run();
